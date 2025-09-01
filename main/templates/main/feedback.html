@@ -1,0 +1,36 @@
+<!-- feedback.html -->
+
+{% extends "main/base.html" %}
+{% block title %} BoB's Feedback page {% endblock %}
+{% load static %}
+
+{% block content %}
+    <div>
+        <h2>Send BoB a message</h2>
+        <p id="feedbackP">We'd love to hear what you think. Drop us your comments, ideas, or
+        even just a hello, it helps us make this space better!</p>
+    </div>
+
+    <form method="Post" class="feedback-form">
+        {% csrf_token%}
+        {{ form.as_p}}
+        <button type="submit" id="send_button">
+            <div id="send"> Send </div>
+        </button>
+    </form> 
+
+    <div id="navSection">
+        <div class="navIcons">
+            <a href="{% url 'barter' %}">
+                <img src="{% static 'main/images/barter.png'%}"alt="The barter page"/>
+            </a>
+        </div>
+
+        <div class="navIcons">
+            <a href="{% url 'buy' %}">
+                <img src="{% static 'main/images/buy.png'%}"alt="The buy page"/>
+            </a>
+        </div> 
+    </div>
+  
+{% endblock %}

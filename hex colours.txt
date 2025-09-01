@@ -1,0 +1,8 @@
+background - #fafafa
+
+green - #45a357
+
+red - #ee5535
+
+orange - #f76c2c
+

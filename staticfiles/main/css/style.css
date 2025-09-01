@@ -1,0 +1,345 @@
+body{
+    width: 100%;
+    padding: 5px;
+    display: flex;
+    background-color: #fafafa;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #45a357;
+}
+
+#leftSide, #rightSide{
+    width: 25%;
+    height: auto;
+}
+
+.blankSpace{
+    width: auto;
+    height: 75%;
+}
+
+#middleSection{
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 5px;
+}
+
+img{    
+    width: 95%;
+    position: relative;
+    border-radius: 20%;
+    object-fit: contain;
+}
+
+#title, .login, #send_button{
+    background-color: #fafafa;
+    text-shadow: 2px 2px 2px #ee5535;
+    text-align: center;
+    margin: 0;
+    line-height: 0.3;
+}
+
+.login{
+    display: flex;
+    height: 10%;
+    position: relative;
+    background: rgba(255, 255, 255, 0.1);
+    place-content: center;
+    place-items: center;
+    overflow: hidden;
+    border-radius: 20%;
+}
+
+.login a, .navIcons a{
+    text-decoration: none;
+    background-color: #fafafa;
+    width: 95%;
+    height: 95%;
+    border-radius: 20%;
+    display: flex;
+    justify-content: center;
+}
+
+#login{
+    color: #fafafa;
+    font-size: 1.5em;
+    background-color: #fafafa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20%;
+}
+
+.gradientBorder, .icons, .navIcons{
+    position: relative;
+    height: auto;
+    width: 75%;
+    top: 0px;
+    background: rgba(255, 255, 255, 0.1);
+    display: flex;
+    place-content: center;
+    place-items: center;
+    overflow: hidden;
+    border-radius: 20%;
+}
+
+#searchImage{
+    height: 95%;
+    height: auto;
+    width: 50%;
+    border: 2px solid #45a357;
+    border-radius: 20%;
+}
+
+.gradientBorder img{
+    width: 96%;
+    height: 96%;
+}
+
+.gradientBorder img, .navIcons img{
+    left: 50%;
+    transform: translate(-50%, 1%);
+    z-index: 1;
+}
+
+#navSection{
+    height: 15%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.navIcons{
+    padding: 2px;
+    width: 45%;
+    height: 70%;
+    margin: 5px;
+}
+
+.icons::before, .navIcons::before, .gradientBorder::before{
+    content: '';
+    position: absolute;
+    z-index: -1;
+    inset: -20%;
+    width: 130%;
+    height: 130%;
+    animation: rotBGimg 3s linear infinite;
+}
+
+@keyframes rotBGimg {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+.gradientBorder::before{
+    background-image: linear-gradient(180deg,#fafafa, #ee5535,#fafafa, #45a357, #fafafa);
+} 
+
+.icons::before, .navIcons::before{
+    background-image: linear-gradient(180deg,#fafafa, #45a357, #fafafa);
+}
+
+.gradientBorder::before{
+    inset: -30%;
+    width: 160%;
+    height: 160%;
+}
+
+
+.icons{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.icons img{
+    width: 95%;
+    transform: translate(3%, 2%);
+    z-index: 1;
+}
+
+.form-style{
+    width: 100%;
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 1%;
+}
+
+#cropImage, #crop1Image, #crop2Image{
+    width: 100%;
+    height: 75%;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.feedback-form{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.feedback-form p{
+    margin:0;
+}
+
+#feedbackP{
+    font-size: 0.75rem;
+}
+
+#send{
+    color: #fafafa;
+    font-size: 1.5em;
+    background-color: #fafafa;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20%;
+
+}
+
+#send_button{
+    border-radius: 20%;
+}
+
+#crop1Image{
+    height: 40%;
+    margin-bottom: 10%;
+}
+
+.cropImages{
+    width: 60%;
+    height: 60%;
+    border: 3px solid #45a357;
+    
+}
+
+input{
+    width: 90%;
+    height: 10%;
+    border-color: #45a357;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-size: 1rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#id_name{
+    height: 30%;
+}
+
+#id_message{
+    width: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-color: #45a357;
+}
+
+#suggestions{
+    border: 1px solid #45a357;
+    border-collapse: collapse;
+    background-color: #fafafa;
+    list-style: none;
+    padding: 0;
+    margin: 0 0 10px 0;
+    height: 100px;
+    overflow-y: scroll;
+    width: 100%;
+    z-index: 1000;
+    border-radius: 6px 6px 6px 6px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+#suggestions li{
+    font-size: 2vh;
+    padding: 0.5vh;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+
+}
+
+#suggestions li:hover, #send_button:hover{
+    background-color: #45a357;
+    color: #fafafa;
+}
+
+button, #buyButton{
+    width: 40%;
+    border: 0;
+    background-color: #fafafa;
+}
+
+button{
+    height: auto;
+}
+
+#buyButton{
+    height: 15%;
+}
+
+#send_button{
+    border-radius: 20%;
+}
+
+.result{
+    text-align: center;
+    font-size: 1em;
+    line-height: 1.5;
+    color: #fafafa;
+    background-color: #45a357;
+    border-radius: 20px;
+    padding: 1%;
+}
+
+.card {
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #45a357;
+    border-radius: 8px;
+}
+
+table{
+    width: 100%;
+    margin-top: 10px;
+    border: 1px solid #45a357;
+}
+
+th, td{
+    padding: 8px;
+    border: 1px solid #45a357;
+    text-align:left
+}
+
+.site-footer{
+    color: rgb(100, 100, 100);
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 0.5;
+}

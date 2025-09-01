@@ -1,0 +1,28 @@
+<!-- index.html -->
+
+{% extends "main/base.html"%}
+{% block title %} BoB's Homepage {% endblock %}
+{% load static %}
+
+{% block content %}
+
+<div class="gradientBorder">
+    <a href="{% url 'barter' %}">
+            <img src="{% static 'main/images/barter.png' %}" alt="The barter button"/>
+    </a>
+</div>
+
+        
+
+<h1 id="title">
+    <p>BARTER</p><p>or</p><p>BUY</p>
+</h1>
+
+<div class="gradientBorder">
+    <a href="{% url 'buy' %}">
+            <img src="{% static 'main/images/buy.png'%}"alt="The buy button"/>
+    </a>
+</div>
+        
+    
+{% endblock %}

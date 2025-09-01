@@ -1,0 +1,101 @@
+
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>{% block title %} Barter or Buy (BoB) {% endblock %}</title>
+        <link rel="stylesheet" href="{% static 'main/css/style.css'%}">
+
+        <!-- android favicon -->
+        <link rel="icon" sizes="36x36" type="image/png"
+        href="{% static 'main/images/favicon/android-icon-36x36.png'%}">
+        <link rel="icon" sizes="48x48" type="image/png"
+        href="{% static 'main/images/favicon/android-icon-48x48.png'%}">
+        <link rel="icon" sizes="72x72" type="image/png"
+        href="{% static 'main/images/favicon/android-icon-72x72.png'%}">
+        <link rel="icon" sizes="96x96" type="image/png"
+        href="{% static 'main/images/favicon/android-icon-96x96.png'%}">
+        <link rel="icon" sizes="144x144" type="image/png"
+        href="{% static 'main/images/favicon/android-icon-144x144.png'%}">
+        <link rel="icon" sizes="192x192" type="image/png"
+        href="{% static 'main/images/favicon/android-icon-192x192.png'%}">
+
+        <!-- apple favicon -->
+
+        <link rel="icon" sizes="57x57" type="image/png"
+        href="{% static 'main/images/favicon/apple-icon-57x57.png'%}">
+        <link rel="icon" sizes="60x60" type="image/png"
+        href="{% static 'main/images/favicon/apple-icon-60x60.png'%}">
+        <link rel="icon" sizes="72x72" type="image/png"
+        href="{% static 'main/images/favicon/apple-icon-72x72.png'%}">
+        <link rel="icon" sizes="76x76" type="image/png"
+        href="{% static 'main/images/favicon/apple-icon-76x76.png'%}">
+        <link rel="icon" sizes="114x114" type="image/png"
+        href="{% static 'main/images/favicon/apple-icon-114x114.png'%}">
+        <link rel="icon" sizes="152x152" type="image/png"
+        href="{% static 'main/images/favicon/apple-icon-152x152.png'%}">
+        <link rel="icon" sizes="180x180" type="image/png"
+        href="{% static 'main/images/favicon/apple-icon-180x180.png'%}">
+        <link rel="icon" type="image/png"
+        href="{% static 'main/images/favicon/apple-icon-precomposed.png'%}">
+        <link rel="icon" type="image/png"
+        href="{% static 'main/images/favicon/apple-icon.png'%}">
+
+        <!-- favicon -->
+        <link rel="icon" sizes="16x16" type="image/png"
+        href="{% static 'main/images/favicon/favicon-16x16.png'%}">
+        <link rel="icon" sizes="32x32" type="image/png"
+        href="{% static 'main/images/favicon/favicon-32x32.png'%}">
+        <link rel="icon" sizes="96x96" type="image/png"
+        href="{% static 'main/images/favicon/favicon-32x32.png'%}">
+        <link rel="icon" type="image/png"
+        href="{% static 'main/images/favicon/favicon.ico'%}">
+
+        <!-- ms favicon -->
+        <link rel="icon" sizes="70x70" type="image/png"
+        href="{% static 'main/images/favicon/ms-icon-70x70.png'%}">
+        <link rel="icon" sizes="144x144" type="image/png"
+        href="{% static 'main/images/favicon/ms-icon-144x144.png'%}">
+        <link rel="icon" sizes="150x150" type="image/png"
+        href="{% static 'main/images/favicon/ms-icon-150x150.png'%}">
+        <link rel="icon" sizes="310x310" type="image/png"
+        href="{% static 'main/images/favicon/ms-icon-310x310.png'%}">
+        
+    </head>
+    <body>
+        <div id="leftSide">
+            <div class="login">
+                <a href="{% url 'login' %}">
+                    <h3 id="login">LOGIN</h3>
+                </a>
+            </div>
+            <div class="blankSpace"></div>
+        </div>
+
+        <div id="middleSection">
+            {% block content %}
+            {% endblock %}
+            <footer class="site-footer">
+                <p>&copy; {% now "Y" %} Barter or Buy by Deserai.</p>
+                <p>All rights reserved.</p>
+            </footer>
+        </div>
+
+        <div id="rightSide">
+            <div class="blankSpace"></div>
+            <div id="emailUs" class="icons">
+                <a href="{% url 'feedback' %}">
+                    <img src="{% static 'main/images/email.png' %}" alt="The contact us button"/>
+                </a>
+            </div>
+        </div>  
+        
+        <script> 
+            const AUTOCOMPLETE_URL = "{% url 'autocomplete' %}";
+        </script>
+    
+        <script src="{% static 'main/searchSuggestions.js' %}"></script> 
+    </body>
+</html>

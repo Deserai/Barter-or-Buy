@@ -1,0 +1,76 @@
+<!-- inbox.html -->
+
+{% extends "main/base.html" %}
+{% block title %} BoB's Inbox {% endblock %}
+{% load static %}
+
+{% block content %}
+    <h2>Inbox</h2>
+    {% if user.is_authenticated %}
+        <p>Welcome, {{ user.username }} | <a href="{% url 'logout'%}"> Logout</a></p>
+    {% endif %}
+
+    {% if messages %}
+        <ul>
+            {% for msg in messages %}
+            <li style="margin-bottom: 15px; padding: 10px; border: 1px solid #9c055d; border-radius: 8px;">
+                <strong>{{ msg.name|default:'Anonymous'}}</strong>
+                <em>({{ msg.created_at|date:'Y-m-d H:i'}})</em>
+                <p> {{ msg.message}}</p>
+            </li>
+            {% endfor %}
+        </ul>
+    {% else %}
+        <p>No messages yet</p>
+    {% endif %}
+
+    <h2>Feature Usage Dashboard</h2>
+
+    <div class="card">
+        <h3>Total Feature Usage</h3>
+        <p>{{ total_usage }}</p>
+    </div>
+
+    <div class="card">
+        <h3>Usage per Feature </h3>
+        <table>
+            <tr>
+                <th>Feature</th>
+                <th>Count</th>
+            </tr>
+            {% for f in feature_counts %}
+            <tr>
+                <td>{{ f.feature_name }}</td>
+                <td>{{ f.count }}</td>
+            </tr>
+            {% endfor %}
+        </table>
+    </div>
+
+    <div class="card">
+        <h3>Daily Activity (Last 7 Days) </h3>
+        <table>
+            <tr>
+                <th>Date</th>
+                <th>Count</th>
+            </tr>
+            {% for d in daily_counts %}
+            <tr>
+                <td>{{ d.day }}</td>
+                <td>{{ d.count }}</td>
+            </tr>
+            {% endfor %}
+        </table>
+    </div>
+
+    <div id="navSection">
+        <a href="{% url 'barter' %}">
+            <img src="{% static 'main/images/barter.png'%}"alt="The barter page"/>
+        </a>
+        <a href="{% url 'buy' %}">
+            <img src="{% static 'main/images/buy.png'%}"alt="Homepage"/>
+        </a> 
+    </div>
+{% endblock %}
+    
+

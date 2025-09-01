@@ -1,0 +1,44 @@
+<!-- buy.html -->
+
+{% extends "main/base.html" %}
+{% block title %} BoB's Buy page {% endblock %}
+{% load static %}
+
+{% block content %}
+    <form method = 'POST' class="form-style"> 
+        {% csrf_token %}
+
+        <div id="crop1Image">
+            <img src="{% static 'main/images/carrot.png'%}"alt="Find crop" class="cropImages"/>
+        </div>
+
+        {{ form.crop }}
+
+        <ul id="suggestions"></ul>      
+        
+        {% if result %}
+            <p class="result">The average price of {{result.0}} is R{{result.1}}/kg.</p>
+            <p>Fruit and veggie prices come from The Cape Town Fresh Produce Market 
+                (www.ctmarket.co.za). This way, you know you're seeing fair and up-to-date market prices.</p>
+        {% endif %}
+
+
+        <button type = "submit">
+            <img src="{% static 'main/images/search.png'%}"alt="search button" id="searchImage"/>
+        </button> 
+    </form>
+
+    <div id="navSection">
+        <div class="navIcons">
+            <a href="{% url 'barter' %}">
+                <img src="{% static 'main/images/barter.png'%}"alt="The barter page"/>
+            </a>
+        </div>
+
+        <div class="navIcons">
+            <a href="{% url 'index' %}">
+                <img src="{% static 'main/images/home.png'%}"alt="Homepage"/>
+            </a>
+        </div> 
+    </div>
+{% endblock %}
