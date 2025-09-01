@@ -34,7 +34,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 SECRET_KEY = env('SECRET_KEY')
 DEBUG = False
-ALLOWED_HOST='barter-or-buy.onrender.com'
+ALLOWED_HOST=['127.0.0.1', 'localhost', 'barter-or-buy.onrender.com']
 
 # Application definition
 
