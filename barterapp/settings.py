@@ -33,8 +33,8 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 # env.list('ALLOWED_HOSTS', default =[])
 
-SECRET_KEY = env('SECRET_KEY')
-DEBUG = False
+SECRET_KEY = os.environ.get("SECRET_KEY", "your-local-secret-key")
+DEBUG = os.environ.get("DEBUG", "False") == "True"
 ALLOWED_HOSTS=['127.0.0.1', 'localhost', 'barter-or-buy.onrender.com']
 
 # Application definition
@@ -57,6 +57,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'whitenoise.middleware.WhiteNoiseMiddleware',
 ]
 
 ROOT_URLCONF = 'barterapp.urls'
@@ -86,7 +87,11 @@ WSGI_APPLICATION = 'barterapp.wsgi.application'
 DATABASE_URL = os.environ.get('DATABASE_URL')
 if DATABASE_URL:
     DATABASES = {
-        "default": dj_database_url.parse(DATABASE_URL, conn_max_age=600, ssl_require=True)
+        "default": dj_database_url.config(
+            default = os.environ.get("DATABASE_URL"),
+            conn_max_age = 600, 
+            ssl_require=True
+            )
     }
 else:
     DATABASES = {
