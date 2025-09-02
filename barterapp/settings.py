@@ -118,7 +118,9 @@ LOGGING = {
         "django": {"handlers": ["file"], "level": "INFO", "propagate": True},
         "feature_usage": {"handlers": ["file"], "level": "INFO", "propagate": False},
     },
-}DEBUG = os.environ.get("DEBUG", "False") == "True"
+}
+
+DEBUG = os.environ.get("DEBUG", "False") == "True"
 ALLOWED_HOSTS=['127.0.0.1', 'localhost', 'barter-or-buy.onrender.com']
 
 # Application definition
