@@ -8,12 +8,14 @@ from pathlib import Path
 import dj_database_url
 import environ
 
+# Base directory
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
 # Load environment variables
 env = environ.Env()
-environ.Env.read_env()
-
-# Base directory
-BASE_DIR = Path(__file__).resolve().parent.parent
+env_file = os.path.join(BASE_DIR,".env")
+if env_file:
+    env.read_env(env_file)
 
 # SECURITY
 SECRET_KEY = os.environ.get("SECRET_KEY", "your-local-secret-key")
@@ -29,6 +31,7 @@ INSTALLED_APPS = [
     "django.contrib.contenttypes",
     "django.contrib.sessions",
     "django.contrib.messages",
+    "whitenoise.runserver_nostatic",
     "django.contrib.staticfiles",
     "main",
 ]
@@ -88,9 +91,9 @@ USE_I18N = True
 USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
-STATIC_URL = "/static/"
 STATIC_ROOT = os.path.join(BASE_DIR, "staticfiles")
-STATICFILES_DIRS = [os.path.join(BASE_DIR, "static")]  # Your local static folder
+STATIC_URL = "/static/"
+STATICFILES_DIRS = [os.path.join(BASE_DIR, "static"),]  # Your local static folder
 STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
 
 # Default primary key field type
@@ -184,7 +187,7 @@ else:
     DATABASES = {
         'default': {
             'ENGINE': 'django.db.backends.sqlite3',
-            'NAME': BASE_DIR / 'db.sqlite3',
+            'NAME': os.path.join(BASE_DIR,'db.sqlite3'),
         }
     }
 
