@@ -1,31 +1,56 @@
 body{
     width: 100%;
-    padding: 5px;
+    height: 100vh;
     display: flex;
+    flex-direction: column;
     background-color: #fafafa;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #45a357;
+    flex-wrap: nowrap;
+    align-items: center;
 }
 
-#leftSide, #rightSide{
-    width: 25%;
-    height: auto;
+#top, #bottom{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    margin: 2%;
 }
 
-.blankSpace{
-    width: auto;
-    height: 75%;
+#center{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 50%;
+}
+
+#left{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
 }
 
 #middleSection{
-    width: 50%;
-    height: auto;
+    width: 60%;
+    height: 100%;
     display: flex;
     flex-wrap: nowrap;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    padding: 5px;
+}
+
+#right{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
 }
 
 img{    
@@ -45,7 +70,7 @@ img{
 
 .login{
     display: flex;
-    height: 10%;
+    height: 14%;
     position: relative;
     background: rgba(255, 255, 255, 0.1);
     place-content: center;
@@ -66,15 +91,41 @@ img{
 
 #login{
     color: #fafafa;
-    font-size: 1.5em;
     background-color: #fafafa;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     border-radius: 20%;
 }
 
-.gradientBorder, .icons, .navIcons{
+.gradientBorder{
+    position: relative;
+    height: 23%;
+    width: 40%;
+    background: rgba(255, 255, 255, 0.1);
+    display: flex;
+    place-items: center;
+    overflow: hidden;
+    border-radius: 20%;
+}
+
+.icons{
+    position: relative;
+    width: 100%;
+    height: 18%;
+    background: rgba(255, 255, 255, 0.1);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    place-items: center;
+    overflow: hidden;
+    border-radius: 20%;
+} 
+
+.icons a{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+.navIcons{
     position: relative;
     height: auto;
     width: 75%;
@@ -115,18 +166,40 @@ img{
 
 .navIcons{
     padding: 2px;
-    width: 45%;
+    width: 25%;
     height: 70%;
     margin: 5px;
 }
 
-.icons::before, .navIcons::before, .gradientBorder::before{
+.icons::before{
+    content: '';
+    position: absolute;
+    z-index: -1;
+    inset: -25%;
+    width: 150%;
+    height: 150%;
+    animation: rotBGimg 3s linear infinite;
+}
+
+.navIcons::before
+{
     content: '';
     position: absolute;
     z-index: -1;
     inset: -20%;
     width: 130%;
     height: 130%;
+    animation: rotBGimg 3s linear infinite;
+}
+
+.gradientBorder::before{
+    content: '';
+    background-image: linear-gradient(180deg,#fafafa, #ee5535,#fafafa, #45a357, #fafafa);
+    position: absolute;
+    z-index: -1;
+    inset: -30%;
+    width: 160%;
+    height: 160%;
     animation: rotBGimg 3s linear infinite;
 }
 
@@ -139,20 +212,9 @@ img{
     }
 }
 
-.gradientBorder::before{
-    background-image: linear-gradient(180deg,#fafafa, #ee5535,#fafafa, #45a357, #fafafa);
-} 
-
 .icons::before, .navIcons::before{
     background-image: linear-gradient(180deg,#fafafa, #45a357, #fafafa);
 }
-
-.gradientBorder::before{
-    inset: -30%;
-    width: 160%;
-    height: 160%;
-}
-
 
 .icons{
     width: auto;
@@ -165,9 +227,8 @@ img{
 }
 
 .icons img{
-    width: 95%;
-    transform: translate(3%, 2%);
-    z-index: 1;
+    width: 96%;
+    height: 100%;
 }
 
 .form-style{
@@ -180,7 +241,7 @@ img{
     gap: 1%;
 }
 
-#cropImage, #crop1Image, #crop2Image{
+.carrot, .tomatoe, #crop1Image img{
     width: 100%;
     height: 75%;
     display: flex;
@@ -199,11 +260,12 @@ img{
     flex-wrap: nowrap;
     flex-direction: column;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: space-evenly;
 }
 
 .feedback-form p{
     margin:0;
+    width: max-content;
 }
 
 #feedbackP{
@@ -224,19 +286,35 @@ img{
 }
 
 #send_button{
-    border-radius: 20%;
+    width: 40%;
+    height: 20%;
 }
 
 #crop1Image{
-    height: 40%;
-    margin-bottom: 10%;
+    height: 60%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.cropImages{
-    width: 60%;
-    height: 60%;
+#crop1Image img{
+    width: auto;
+    height: 50%;
+    border: 3px solid #45a357;
+}
+
+.carrot{
+    width: auto;
+    height: 25%;
     border: 3px solid #45a357;
     
+}
+
+.tomatoe{
+    width: 43%;
+    height: 36%;
+    border: 3px solid #45a357;
 }
 
 input{
@@ -246,7 +324,7 @@ input{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin-top: 5%;
     margin-bottom: 5%;
-    font-size: 1rem;
+    font-size: 1vh;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -263,22 +341,23 @@ input{
 }
 
 #suggestions{
+    position: absolute;
     border: 1px solid #45a357;
     border-collapse: collapse;
     background-color: #fafafa;
     list-style: none;
     padding: 0;
     margin: 0 0 10px 0;
-    height: 100px;
+    height: 20%;
     overflow-y: scroll;
-    width: 100%;
-    z-index: 1000;
+    width: 95%;
+    z-index: 5;
     border-radius: 6px 6px 6px 6px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 4px 8px rgb(0 0 0 / 50%);
 }
 
 #suggestions li{
-    font-size: 2vh;
+    font-size: 1vh;
     padding: 0.5vh;
     cursor: pointer;
     transition: background-color 0.2s ease;
@@ -304,10 +383,6 @@ button{
     height: 15%;
 }
 
-#send_button{
-    border-radius: 20%;
-}
-
 .result{
     text-align: center;
     font-size: 1em;
@@ -316,6 +391,8 @@ button{
     background-color: #45a357;
     border-radius: 20px;
     padding: 1%;
+    position: absolute;
+    z-index: 2;
 }
 
 .card {

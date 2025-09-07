@@ -150,5 +150,3 @@ LOGGING = {
         },
     },
 }
-
-print("DJANGO STARTUP OK", file=sys.stderr)

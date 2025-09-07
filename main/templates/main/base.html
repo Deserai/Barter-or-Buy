@@ -65,32 +65,41 @@
         
     </head>
     <body>
-        <div id="leftSide">
-            <div class="login">
-                <a href="{% url 'login' %}">
-                    <h3 id="login">LOGIN</h3>
-                </a>
-            </div>
-            <div class="blankSpace"></div>
+        <div id="top">
         </div>
 
-        <div id="middleSection">
-            {% block content %}
-            {% endblock %}
-            <footer class="site-footer">
-                <p>&copy; {% now "Y" %} Barter or Buy by Deserai.</p>
-                <p>All rights reserved.</p>
-            </footer>
-        </div>
-
-        <div id="rightSide">
-            <div class="blankSpace"></div>
-            <div id="emailUs" class="icons">
-                <a href="{% url 'feedback' %}">
-                    <img src="{% static 'main/images/email.png' %}" alt="The contact us button"/>
-                </a>
+        <div id="center">
+            <div id="left">
+                <div class="login">
+                    <a href="{% url 'login' %}">
+                        <h3 id="login">LOGIN</h3>
+                    </a>
+                </div>
             </div>
-        </div>  
+
+            <div id="middleSection">
+                {% block content %}
+                {% endblock %}
+            </div>
+
+            <div id="right">
+                <div id="emailUs" class="icons">
+                    <a href="{% url 'feedback' %}">
+                        <img src="{% static 'main/images/email.png' %}" alt="The contact us button"/>
+                    </a>
+                </div>
+            </div>
+
+         </div>
+
+        <div id="bottom">
+            <div class="blankSpace"></div>
+        </div>
+        
+        <footer class="site-footer">
+            <p>&copy; {% now "Y" %} Barter or Buy by Deserai.</p>
+            <p>All rights reserved.</p>
+        </footer>
         
         <script> 
             const AUTOCOMPLETE_URL = "{% url 'autocomplete' %}";

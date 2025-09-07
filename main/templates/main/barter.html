@@ -8,27 +8,27 @@
     <form method = 'POST' class="form-style"> 
         {% csrf_token%}
 
-        <img src="{% static 'main/images/carrot.png'%}"alt="Compare First crop" class="cropImages"/>
+        <img src="{% static 'main/images/carrot.png'%}"alt="Compare First crop" class="carrot"/>
         
 
         {{ form.crop1 }}
         
         <ul id="suggestions"></ul>
-                    
+                 
         {% if result %}
-        <div class="result">
-            <p>The price of {{result.0}} is R{{result.4}} per/kg.</p>
-            <p>The price of {{result.2}} is R{{result.5}} per/kg.</p>
-            <p>1kg of {{result.0}} is equal to {{result.1}} kgs of {{result.2}}.</p>
-            <p>1kg of {{result.2}} is equal to {{result.3}} kgs of {{result.0}}.</p>
-        </div> 
-        <p>Fruit and veggie prices come from The Cape Town Fresh Produce Market 
-            (www.ctmarket.co.za). This way, you know you're seeing fair and up-to-date market prices. </p>
+            <div class="result">
+                <p>The price of {{result.0}} is R{{result.4}} per/kg.</p>
+                <p>The price of {{result.2}} is R{{result.5}} per/kg.</p>
+                <p>1kg of {{result.0}} is equal to {{result.1}} kgs of {{result.2}}.</p>
+                <p>1kg of {{result.2}} is equal to {{result.3}} kgs of {{result.0}}.</p>
+                <p>Fruit and veggie prices come from The Cape Town Fresh Produce Market 
+                    (www.ctmarket.co.za). This way, you know you're seeing fair and up-to-date market prices. </p>
+            </div> 
         {% endif %}
 
         {{ form.crop2 }}
 
-        <img src="{% static 'main/images/tomatoe.png'%}"alt="to Second crop" class="cropImages"/>
+        <img src="{% static 'main/images/tomatoe.png'%}"alt="to Second crop" class="tomatoe"/>
 
         <button type = "submit">
             <img src="{% static 'main/images/search.png'%}"alt="search button" id="searchImage"/>

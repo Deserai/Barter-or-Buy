@@ -4,7 +4,7 @@ import pandas as pd
 from django.conf import settings
 
 
-CSV_PATH = os.path.join(settings.BASE_DIR, 'main/data', '01_09_2025.csv')
+CSV_PATH = os.path.join(settings.BASE_DIR, 'main/data', '05_09_2025.csv')
 
 
 def load_dataframe():

@@ -9,7 +9,7 @@
         {% csrf_token %}
 
         <div id="crop1Image">
-            <img src="{% static 'main/images/carrot.png'%}"alt="Find crop" class="cropImages"/>
+            <img src="{% static 'main/images/carrot.png'%}"alt="Find crop"/>
         </div>
 
         {{ form.crop }}
@@ -17,11 +17,12 @@
         <ul id="suggestions"></ul>      
         
         {% if result %}
-            <p class="result">The average price of {{result.0}} is R{{result.1}}/kg.</p>
+        <div class="result">
+            <p>The average price of {{result.0}} is R{{result.1}}/kg.</p>
             <p>Fruit and veggie prices come from The Cape Town Fresh Produce Market 
                 (www.ctmarket.co.za). This way, you know you're seeing fair and up-to-date market prices.</p>
+        </div>
         {% endif %}
-
 
         <button type = "submit">
             <img src="{% static 'main/images/search.png'%}"alt="search button" id="searchImage"/>

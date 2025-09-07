@@ -4942,3 +4942,418 @@ Watching for file changes with StatReloader
 "POST /barter/ HTTP/1.1" 200 6126
 "GET /barter/ HTTP/1.1" 200 5356
 C:\Users\sookie\Desktop\django\barterapp\barterapp\settings.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 4445
+"GET /static/main/searchSuggestions.js HTTP/1.1" 304 0
+"GET /static/main/images/email.png HTTP/1.1" 304 0
+"GET /static/main/css/style.css HTTP/1.1" 200 6196
+"GET / HTTP/1.1" 200 4445
+"GET /static/main/images/favicon/favicon.ico HTTP/1.1" 304 0
+"GET /static/main/images/favicon/apple-icon.png HTTP/1.1" 304 0
+"GET /static/main/images/favicon/apple-icon-precomposed.png HTTP/1.1" 304 0
+"GET /static/main/images/favicon/favicon-32x32.png HTTP/1.1" 304 0
+"GET / HTTP/1.1" 200 4445
+"GET /static/main/css/style.css HTTP/1.1" 200 6224
+"GET / HTTP/1.1" 200 4445
+"GET / HTTP/1.1" 200 4445
+"GET /static/main/css/style.css HTTP/1.1" 200 6227
+"GET / HTTP/1.1" 200 4445
+"GET /static/main/css/style.css HTTP/1.1" 304 0
+"GET / HTTP/1.1" 200 4445
+"GET /static/main/css/style.css HTTP/1.1" 200 6208
+"GET / HTTP/1.1" 200 4445
+"GET / HTTP/1.1" 200 4436
+"GET /static/main/css/style.css HTTP/1.1" 304 0
+"GET / HTTP/1.1" 200 4436
+"GET /static/main/images/email.png HTTP/1.1" 304 0
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 4436
+"GET /static/main/css/style.css HTTP/1.1" 304 0
+"GET /static/main/searchSuggestions.js HTTP/1.1" 304 0
+"GET / HTTP/1.1" 200 4436
+- Broken pipe from ('127.0.0.1', 52588)
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 4436
+"GET /static/main/searchSuggestions.js HTTP/1.1" 304 0
+"GET /static/main/css/style.css HTTP/1.1" 200 6628
+"GET / HTTP/1.1" 200 4436
+- Broken pipe from ('127.0.0.1', 55737)
+"GET /feedback/ HTTP/1.1" 200 5274
+"GET /feedback/ HTTP/1.1" 200 5274
+- Broken pipe from ('127.0.0.1', 56875)
+"GET / HTTP/1.1" 200 4585
+"GET / HTTP/1.1" 200 4585
+"GET / HTTP/1.1" 200 4585
+"GET /static/main/css/style.css HTTP/1.1" 200 7428
+"GET / HTTP/1.1" 200 4585
+"GET / HTTP/1.1" 200 4585
+"GET /static/main/css/style.css HTTP/1.1" 200 7308
+"GET / HTTP/1.1" 200 4585
+"GET / HTTP/1.1" 200 4585
+"GET /static/main/css/style.css HTTP/1.1" 200 7292
+"GET / HTTP/1.1" 200 4585
+"GET /barter/ HTTP/1.1" 200 5488
+"GET /static/main/css/style.css HTTP/1.1" 304 0
+"GET /static/main/images/carrot.png HTTP/1.1" 304 0
+"GET /static/main/images/tomatoe.png HTTP/1.1" 304 0
+"GET /static/main/images/search.png HTTP/1.1" 304 0
+"GET /barter/ HTTP/1.1" 200 5488
+"GET /barter/ HTTP/1.1" 200 5481
+"GET /static/main/css/style.css HTTP/1.1" 200 7372
+"GET /barter/ HTTP/1.1" 200 5481
+"GET /barter/ HTTP/1.1" 200 5481
+"GET /static/main/css/style.css HTTP/1.1" 200 7366
+"GET /barter/ HTTP/1.1" 200 5481
+"GET /barter/ HTTP/1.1" 200 5481
+"GET /static/main/css/style.css HTTP/1.1" 200 7366
+"GET /barter/ HTTP/1.1" 200 5481
+"GET /barter/ HTTP/1.1" 200 5481
+"GET /static/main/css/style.css HTTP/1.1" 200 7366
+"GET /barter/ HTTP/1.1" 200 5481
+"GET / HTTP/1.1" 200 4585
+"GET /static/main/css/style.css HTTP/1.1" 304 0
+"GET / HTTP/1.1" 200 4585
+"GET /buy/ HTTP/1.1" 200 5265
+"GET /static/main/css/style.css HTTP/1.1" 304 0
+"GET /buy/ HTTP/1.1" 200 5265
+"GET /buy/ HTTP/1.1" 200 5260
+"GET /static/main/css/style.css HTTP/1.1" 304 0
+"GET /buy/ HTTP/1.1" 200 5260
+"GET /buy/ HTTP/1.1" 200 5245
+"GET /static/main/css/style.css HTTP/1.1" 304 0
+"GET /buy/ HTTP/1.1" 200 5245
+"GET /buy/ HTTP/1.1" 200 5261
+"GET /static/main/css/style.css HTTP/1.1" 200 7366
+"GET /buy/ HTTP/1.1" 200 5261
+"GET /buy/ HTTP/1.1" 200 5261
+"GET /static/main/css/style.css HTTP/1.1" 304 0
+"GET /buy/ HTTP/1.1" 200 5261
+"GET /buy/ HTTP/1.1" 200 5246
+"GET /static/main/css/style.css HTTP/1.1" 200 7530
+"GET /buy/ HTTP/1.1" 200 5246
+"GET /barter/ HTTP/1.1" 200 5481
+"GET /static/main/css/style.css HTTP/1.1" 304 0
+"GET /barter/ HTTP/1.1" 200 5481
+"GET / HTTP/1.1" 200 4585
+"GET /static/main/css/style.css HTTP/1.1" 304 0
+"GET / HTTP/1.1" 200 4585
+"GET /feedback/ HTTP/1.1" 200 5423
+"GET /static/main/css/style.css HTTP/1.1" 304 0
+"GET /feedback/ HTTP/1.1" 200 5423
+"GET /feedback/ HTTP/1.1" 200 5423
+"GET /static/main/css/style.css HTTP/1.1" 200 7520
+"GET /feedback/ HTTP/1.1" 200 5423
+"GET /feedback/ HTTP/1.1" 200 5423
+"GET /static/main/css/style.css HTTP/1.1" 200 7522
+"GET /feedback/ HTTP/1.1" 200 5423
+"GET /buy/ HTTP/1.1" 200 5246
+"GET /static/main/css/style.css HTTP/1.1" 304 0
+"GET /buy/ HTTP/1.1" 200 5246
+"GET /barter/ HTTP/1.1" 200 5481
+"GET /static/main/css/style.css HTTP/1.1" 304 0
+"GET /barter/ HTTP/1.1" 200 5481
+"GET /autocomplete/?term=ap HTTP/1.1" 200 1471
+"GET /autocomplete/?term=apple HTTP/1.1" 200 1089
+"GET /autocomplete/?term=app HTTP/1.1" 200 1089
+"GET /autocomplete/?term=appl HTTP/1.1" 200 1089
+"GET /autocomplete/?term=ba HTTP/1.1" 200 2858
+"GET /autocomplete/?term=ban HTTP/1.1" 200 189
+"GET /autocomplete/?term=bana HTTP/1.1" 200 158
+"GET /autocomplete/?term=banas HTTP/1.1" 200 2
+"GET /autocomplete/?term=bana HTTP/1.1" 200 158
+"GET /autocomplete/?term=ban HTTP/1.1" 200 189
+"GET /autocomplete/?term=ba HTTP/1.1" 200 2858
+"POST /barter/ HTTP/1.1" 200 5529
+"GET /static/main/css/style.css HTTP/1.1" 200 7538
+"GET /barter/ HTTP/1.1" 200 5481
+"GET /autocomplete/?term=ap HTTP/1.1" 200 1471
+"GET /autocomplete/?term=app HTTP/1.1" 200 1089
+"GET /autocomplete/?term=appl HTTP/1.1" 200 1089
+"GET /autocomplete/?term=apple HTTP/1.1" 200 1089
+"GET /autocomplete/?term=appl HTTP/1.1" 200 1089
+"GET /autocomplete/?term=app HTTP/1.1" 200 1089
+"GET /autocomplete/?term=ap HTTP/1.1" 200 1471
+"POST /barter/ HTTP/1.1" 200 5529
+"GET /static/main/css/style.css HTTP/1.1" 304 0
+"GET /barter/ HTTP/1.1" 200 5481
+"GET /autocomplete/?term=ba HTTP/1.1" 200 2858
+"GET /autocomplete/?term=ban HTTP/1.1" 200 189
+"GET /autocomplete/?term=bana HTTP/1.1" 200 158
+"POST /barter/ HTTP/1.1" 200 6167
+"GET /static/main/css/style.css HTTP/1.1" 304 0
+"GET /barter/ HTTP/1.1" 200 5481
+"POST /barter/ HTTP/1.1" 200 6255
+"GET /static/main/css/style.css HTTP/1.1" 200 7585
+"GET /barter/ HTTP/1.1" 200 5533
+"POST /barter/ HTTP/1.1" 200 6204
+"GET /static/main/css/style.css HTTP/1.1" 304 0
+"GET /barter/ HTTP/1.1" 200 5478
+"POST /barter/ HTTP/1.1" 200 6204
+"GET /static/main/css/style.css HTTP/1.1" 200 7580
+"GET /barter/ HTTP/1.1" 200 5478
+"GET /buy/ HTTP/1.1" 200 5245
+"GET /static/main/css/style.css HTTP/1.1" 304 0
+"GET /buy/ HTTP/1.1" 200 5245
+"GET /autocomplete/?term=ap HTTP/1.1" 200 1471
+"GET /autocomplete/?term=app HTTP/1.1" 200 1089
+"POST /buy/ HTTP/1.1" 200 5625
+"GET /static/main/css/style.css HTTP/1.1" 304 0
+"GET /buy/ HTTP/1.1" 200 5245
+Internal Server Error: /autocomplete/
+Traceback (most recent call last):
+  File "C:\Users\sookie\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\sookie\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\sookie\AppData\Local\Programs\Python\Python39\lib\site-packages\django\views\decorators\http.py", line 43, in inner
+    return func(request, *args, **kwargs)
+  File "C:\Users\sookie\Desktop\django\barterapp\main\views.py", line 23, in autocomplete
+    result = get_matching_crops(crop)
+  File "C:\Users\sookie\Desktop\django\barterapp\main\generate_pricelist.py", line 39, in get_matching_crops
+    matches = display_matches[display_matches.str.contains(crop, case=False, na=False)]
+  File "C:\Users\sookie\AppData\Local\Programs\Python\Python39\lib\site-packages\pandas\core\strings\accessor.py", line 140, in wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\sookie\AppData\Local\Programs\Python\Python39\lib\site-packages\pandas\core\strings\accessor.py", line 1338, in contains
+    if regex and re.compile(pat).groups:
+  File "C:\Users\sookie\AppData\Local\Programs\Python\Python39\lib\re.py", line 252, in compile
+    return _compile(pattern, flags)
+  File "C:\Users\sookie\AppData\Local\Programs\Python\Python39\lib\re.py", line 304, in _compile
+    p = sre_compile.compile(pattern, flags)
+  File "C:\Users\sookie\AppData\Local\Programs\Python\Python39\lib\sre_compile.py", line 764, in compile
+    p = sre_parse.parse(p, flags)
+  File "C:\Users\sookie\AppData\Local\Programs\Python\Python39\lib\sre_parse.py", line 948, in parse
+    p = _parse_sub(source, state, flags & SRE_FLAG_VERBOSE, 0)
+  File "C:\Users\sookie\AppData\Local\Programs\Python\Python39\lib\sre_parse.py", line 443, in _parse_sub
+    itemsappend(_parse(source, state, verbose, nested + 1,
+  File "C:\Users\sookie\AppData\Local\Programs\Python\Python39\lib\sre_parse.py", line 836, in _parse
+    raise source.error("missing ), unterminated subpattern",
+re.error: missing ), unterminated subpattern at position 26
+"GET /autocomplete/?term=APPLE%20CRIPPS%20RED%20-%20MARK%204%20(18. HTTP/1.1" 500 111153
+Internal Server Error: /autocomplete/
+Traceback (most recent call last):
+  File "C:\Users\sookie\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\sookie\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\sookie\AppData\Local\Programs\Python\Python39\lib\site-packages\django\views\decorators\http.py", line 43, in inner
+    return func(request, *args, **kwargs)
+  File "C:\Users\sookie\Desktop\django\barterapp\main\views.py", line 23, in autocomplete
+    result = get_matching_crops(crop)
+  File "C:\Users\sookie\Desktop\django\barterapp\main\generate_pricelist.py", line 39, in get_matching_crops
+    matches = display_matches[display_matches.str.contains(crop, case=False, na=False)]
+  File "C:\Users\sookie\AppData\Local\Programs\Python\Python39\lib\site-packages\pandas\core\strings\accessor.py", line 140, in wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\sookie\AppData\Local\Programs\Python\Python39\lib\site-packages\pandas\core\strings\accessor.py", line 1338, in contains
+    if regex and re.compile(pat).groups:
+  File "C:\Users\sookie\AppData\Local\Programs\Python\Python39\lib\re.py", line 252, in compile
+    return _compile(pattern, flags)
+  File "C:\Users\sookie\AppData\Local\Programs\Python\Python39\lib\re.py", line 304, in _compile
+    p = sre_compile.compile(pattern, flags)
+  File "C:\Users\sookie\AppData\Local\Programs\Python\Python39\lib\sre_compile.py", line 764, in compile
+    p = sre_parse.parse(p, flags)
+  File "C:\Users\sookie\AppData\Local\Programs\Python\Python39\lib\sre_parse.py", line 948, in parse
+    p = _parse_sub(source, state, flags & SRE_FLAG_VERBOSE, 0)
+  File "C:\Users\sookie\AppData\Local\Programs\Python\Python39\lib\sre_parse.py", line 443, in _parse_sub
+    itemsappend(_parse(source, state, verbose, nested + 1,
+  File "C:\Users\sookie\AppData\Local\Programs\Python\Python39\lib\sre_parse.py", line 836, in _parse
+    raise source.error("missing ), unterminated subpattern",
+re.error: missing ), unterminated subpattern at position 26
+"GET /autocomplete/?term=APPLE%20CRIPPS%20RED%20-%20MARK%204%20(18.3KG HTTP/1.1" 500 111249
+Internal Server Error: /autocomplete/
+Traceback (most recent call last):
+  File "C:\Users\sookie\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\sookie\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\sookie\AppData\Local\Programs\Python\Python39\lib\site-packages\django\views\decorators\http.py", line 43, in inner
+    return func(request, *args, **kwargs)
+  File "C:\Users\sookie\Desktop\django\barterapp\main\views.py", line 23, in autocomplete
+    result = get_matching_crops(crop)
+  File "C:\Users\sookie\Desktop\django\barterapp\main\generate_pricelist.py", line 39, in get_matching_crops
+    matches = display_matches[display_matches.str.contains(crop, case=False, na=False)]
+  File "C:\Users\sookie\AppData\Local\Programs\Python\Python39\lib\site-packages\pandas\core\strings\accessor.py", line 140, in wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\sookie\AppData\Local\Programs\Python\Python39\lib\site-packages\pandas\core\strings\accessor.py", line 1338, in contains
+    if regex and re.compile(pat).groups:
+  File "C:\Users\sookie\AppData\Local\Programs\Python\Python39\lib\re.py", line 252, in compile
+    return _compile(pattern, flags)
+  File "C:\Users\sookie\AppData\Local\Programs\Python\Python39\lib\re.py", line 304, in _compile
+    p = sre_compile.compile(pattern, flags)
+  File "C:\Users\sookie\AppData\Local\Programs\Python\Python39\lib\sre_compile.py", line 764, in compile
+    p = sre_parse.parse(p, flags)
+  File "C:\Users\sookie\AppData\Local\Programs\Python\Python39\lib\sre_parse.py", line 948, in parse
+    p = _parse_sub(source, state, flags & SRE_FLAG_VERBOSE, 0)
+  File "C:\Users\sookie\AppData\Local\Programs\Python\Python39\lib\sre_parse.py", line 443, in _parse_sub
+    itemsappend(_parse(source, state, verbose, nested + 1,
+  File "C:\Users\sookie\AppData\Local\Programs\Python\Python39\lib\sre_parse.py", line 836, in _parse
+    raise source.error("missing ), unterminated subpattern",
+re.error: missing ), unterminated subpattern at position 26
+Internal Server Error: /autocomplete/
+Traceback (most recent call last):
+  File "C:\Users\sookie\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\sookie\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\sookie\AppData\Local\Programs\Python\Python39\lib\site-packages\django\views\decorators\http.py", line 43, in inner
+    return func(request, *args, **kwargs)
+  File "C:\Users\sookie\Desktop\django\barterapp\main\views.py", line 23, in autocomplete
+    result = get_matching_crops(crop)
+  File "C:\Users\sookie\Desktop\django\barterapp\main\generate_pricelist.py", line 39, in get_matching_crops
+    matches = display_matches[display_matches.str.contains(crop, case=False, na=False)]
+  File "C:\Users\sookie\AppData\Local\Programs\Python\Python39\lib\site-packages\pandas\core\strings\accessor.py", line 140, in wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\sookie\AppData\Local\Programs\Python\Python39\lib\site-packages\pandas\core\strings\accessor.py", line 1338, in contains
+    if regex and re.compile(pat).groups:
+  File "C:\Users\sookie\AppData\Local\Programs\Python\Python39\lib\re.py", line 252, in compile
+    return _compile(pattern, flags)
+  File "C:\Users\sookie\AppData\Local\Programs\Python\Python39\lib\re.py", line 304, in _compile
+    p = sre_compile.compile(pattern, flags)
+  File "C:\Users\sookie\AppData\Local\Programs\Python\Python39\lib\sre_compile.py", line 764, in compile
+    p = sre_parse.parse(p, flags)
+  File "C:\Users\sookie\AppData\Local\Programs\Python\Python39\lib\sre_parse.py", line 948, in parse
+    p = _parse_sub(source, state, flags & SRE_FLAG_VERBOSE, 0)
+  File "C:\Users\sookie\AppData\Local\Programs\Python\Python39\lib\sre_parse.py", line 443, in _parse_sub
+    itemsappend(_parse(source, state, verbose, nested + 1,
+  File "C:\Users\sookie\AppData\Local\Programs\Python\Python39\lib\sre_parse.py", line 836, in _parse
+    raise source.error("missing ), unterminated subpattern",
+re.error: missing ), unterminated subpattern at position 26
+"GET /autocomplete/?term=APPLE%20CRIPPS%20RED%20-%20MARK%204%20(1 HTTP/1.1" 500 111091
+Internal Server Error: /autocomplete/
+Traceback (most recent call last):
+  File "C:\Users\sookie\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\sookie\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\sookie\AppData\Local\Programs\Python\Python39\lib\site-packages\django\views\decorators\http.py", line 43, in inner
+    return func(request, *args, **kwargs)
+  File "C:\Users\sookie\Desktop\django\barterapp\main\views.py", line 23, in autocomplete
+    result = get_matching_crops(crop)
+  File "C:\Users\sookie\Desktop\django\barterapp\main\generate_pricelist.py", line 39, in get_matching_crops
+    matches = display_matches[display_matches.str.contains(crop, case=False, na=False)]
+  File "C:\Users\sookie\AppData\Local\Programs\Python\Python39\lib\site-packages\pandas\core\strings\accessor.py", line 140, in wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\sookie\AppData\Local\Programs\Python\Python39\lib\site-packages\pandas\core\strings\accessor.py", line 1338, in contains
+    if regex and re.compile(pat).groups:
+  File "C:\Users\sookie\AppData\Local\Programs\Python\Python39\lib\re.py", line 252, in compile
+    return _compile(pattern, flags)
+  File "C:\Users\sookie\AppData\Local\Programs\Python\Python39\lib\re.py", line 304, in _compile
+    p = sre_compile.compile(pattern, flags)
+  File "C:\Users\sookie\AppData\Local\Programs\Python\Python39\lib\sre_compile.py", line 764, in compile
+    p = sre_parse.parse(p, flags)
+  File "C:\Users\sookie\AppData\Local\Programs\Python\Python39\lib\sre_parse.py", line 948, in parse
+    p = _parse_sub(source, state, flags & SRE_FLAG_VERBOSE, 0)
+  File "C:\Users\sookie\AppData\Local\Programs\Python\Python39\lib\sre_parse.py", line 443, in _parse_sub
+    itemsappend(_parse(source, state, verbose, nested + 1,
+  File "C:\Users\sookie\AppData\Local\Programs\Python\Python39\lib\sre_parse.py", line 836, in _parse
+    raise source.error("missing ), unterminated subpattern",
+re.error: missing ), unterminated subpattern at position 26
+"GET /autocomplete/?term=APPLE%20CRIPPS%20RED%20-%20MARK%204%20(18.3K HTTP/1.1" 500 111217
+Internal Server Error: /autocomplete/
+Traceback (most recent call last):
+  File "C:\Users\sookie\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\sookie\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\sookie\AppData\Local\Programs\Python\Python39\lib\site-packages\django\views\decorators\http.py", line 43, in inner
+    return func(request, *args, **kwargs)
+  File "C:\Users\sookie\Desktop\django\barterapp\main\views.py", line 23, in autocomplete
+    result = get_matching_crops(crop)
+  File "C:\Users\sookie\Desktop\django\barterapp\main\generate_pricelist.py", line 39, in get_matching_crops
+    matches = display_matches[display_matches.str.contains(crop, case=False, na=False)]
+  File "C:\Users\sookie\AppData\Local\Programs\Python\Python39\lib\site-packages\pandas\core\strings\accessor.py", line 140, in wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\sookie\AppData\Local\Programs\Python\Python39\lib\site-packages\pandas\core\strings\accessor.py", line 1338, in contains
+    if regex and re.compile(pat).groups:
+  File "C:\Users\sookie\AppData\Local\Programs\Python\Python39\lib\re.py", line 252, in compile
+    return _compile(pattern, flags)
+  File "C:\Users\sookie\AppData\Local\Programs\Python\Python39\lib\re.py", line 304, in _compile
+    p = sre_compile.compile(pattern, flags)
+  File "C:\Users\sookie\AppData\Local\Programs\Python\Python39\lib\sre_compile.py", line 764, in compile
+    p = sre_parse.parse(p, flags)
+  File "C:\Users\sookie\AppData\Local\Programs\Python\Python39\lib\sre_parse.py", line 948, in parse
+    p = _parse_sub(source, state, flags & SRE_FLAG_VERBOSE, 0)
+  File "C:\Users\sookie\AppData\Local\Programs\Python\Python39\lib\sre_parse.py", line 443, in _parse_sub
+    itemsappend(_parse(source, state, verbose, nested + 1,
+  File "C:\Users\sookie\AppData\Local\Programs\Python\Python39\lib\sre_parse.py", line 836, in _parse
+    raise source.error("missing ), unterminated subpattern",
+re.error: missing ), unterminated subpattern at position 26
+"GET /autocomplete/?term=APPLE%20CRIPPS%20RED%20-%20MARK%204%20(18 HTTP/1.1" 500 111123
+"GET /autocomplete/?term=APPLE%20CRIPPS%20RED%20-%20MARK%204%20(18.3 HTTP/1.1" 500 111185
+"GET /autocomplete/?term=APPLE%20CRIPPS%20RED%20-%20MA HTTP/1.1" 200 38
+"GET /autocomplete/?term=APPLE%20CRIPPS%20RED%20-%20MARK HTTP/1.1" 200 38
+"GET /autocomplete/?term=APPLE%20CRIPPS%20RED%20-%20MARK%204 HTTP/1.1" 200 38
+"GET /autocomplete/?term=APPLE%20CRIPPS%20RED%20-%20MAR HTTP/1.1" 200 38
+"GET /autocomplete/?term=APPLE%20CRIPPS%20RED%20-%20M HTTP/1.1" 200 38
+"GET /autocomplete/?term=APPLE%20CRIPPS%20RED HTTP/1.1" 200 77
+"GET /autocomplete/?term=APPLE%20CRIPPS%20RED%20- HTTP/1.1" 200 77
+"GET /autocomplete/?term=APPLE%20CRIPPS%20RE HTTP/1.1" 200 77
+"GET /autocomplete/?term=APPLE%20CRIPPS%20R HTTP/1.1" 200 77
+"GET /autocomplete/?term=APPLE%20CRIPP HTTP/1.1" 200 77
+"GET /autocomplete/?term=APPLE%20CRIPPS HTTP/1.1" 200 77
+"GET /autocomplete/?term=APPLE%20CRIP HTTP/1.1" 200 77
+Internal Server Error: /autocomplete/
+Traceback (most recent call last):
+  File "C:\Users\sookie\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\sookie\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\sookie\AppData\Local\Programs\Python\Python39\lib\site-packages\django\views\decorators\http.py", line 43, in inner
+    return func(request, *args, **kwargs)
+  File "C:\Users\sookie\Desktop\django\barterapp\main\views.py", line 23, in autocomplete
+    result = get_matching_crops(crop)
+  File "C:\Users\sookie\Desktop\django\barterapp\main\generate_pricelist.py", line 39, in get_matching_crops
+    matches = display_matches[display_matches.str.contains(crop, case=False, na=False)]
+  File "C:\Users\sookie\AppData\Local\Programs\Python\Python39\lib\site-packages\pandas\core\strings\accessor.py", line 140, in wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\sookie\AppData\Local\Programs\Python\Python39\lib\site-packages\pandas\core\strings\accessor.py", line 1338, in contains
+    if regex and re.compile(pat).groups:
+  File "C:\Users\sookie\AppData\Local\Programs\Python\Python39\lib\re.py", line 252, in compile
+    return _compile(pattern, flags)
+  File "C:\Users\sookie\AppData\Local\Programs\Python\Python39\lib\re.py", line 304, in _compile
+    p = sre_compile.compile(pattern, flags)
+  File "C:\Users\sookie\AppData\Local\Programs\Python\Python39\lib\sre_compile.py", line 764, in compile
+    p = sre_parse.parse(p, flags)
+  File "C:\Users\sookie\AppData\Local\Programs\Python\Python39\lib\sre_parse.py", line 948, in parse
+    p = _parse_sub(source, state, flags & SRE_FLAG_VERBOSE, 0)
+  File "C:\Users\sookie\AppData\Local\Programs\Python\Python39\lib\sre_parse.py", line 443, in _parse_sub
+    itemsappend(_parse(source, state, verbose, nested + 1,
+  File "C:\Users\sookie\AppData\Local\Programs\Python\Python39\lib\sre_parse.py", line 836, in _parse
+    raise source.error("missing ), unterminated subpattern",
+re.error: missing ), unterminated subpattern at position 26
+"GET /autocomplete/?term=APPLE%20CRIPPS%20RED%20-%20MARK%204%20( HTTP/1.1" 500 111061
+"GET /autocomplete/?term=APPLE%20CR HTTP/1.1" 200 77
+"GET /autocomplete/?term=APPLE%20CRI HTTP/1.1" 200 77
+"GET /autocomplete/?term=APPLE%20C HTTP/1.1" 200 77
+"GET /autocomplete/?term=APPLE HTTP/1.1" 200 1089
+"POST /buy/ HTTP/1.1" 200 5570
+"GET /autocomplete/?term=APPL HTTP/1.1" 200 1089
+"GET /autocomplete/?term=AP HTTP/1.1" 200 1471
+"GET /autocomplete/?term=APP HTTP/1.1" 200 1089
+"GET /autocomplete/?term=ca HTTP/1.1" 200 2489
+"GET /autocomplete/?term=caa HTTP/1.1" 200 2
+- Broken pipe from ('127.0.0.1', 63456)
+"GET /autocomplete/?term=carrot HTTP/1.1" 200 329
+"GET /static/main/css/style.css HTTP/1.1" 304 0
+- Broken pipe from ('127.0.0.1', 63479)
+- Broken pipe from ('127.0.0.1', 63480)
+"GET /buy/ HTTP/1.1" 200 5245
+"GET /autocomplete/?term=carrot HTTP/1.1" 200 329
+"GET /autocomplete/?term=carro HTTP/1.1" 200 329
+"GET /autocomplete/?term=carr HTTP/1.1" 200 329
+"GET /autocomplete/?term=car HTTP/1.1" 200 1546
+"GET /autocomplete/?term=ca HTTP/1.1" 200 2489
+"POST /buy/ HTTP/1.1" 200 5598
+"GET /static/main/css/style.css HTTP/1.1" 304 0
+"GET /buy/ HTTP/1.1" 200 5245
+"GET /barter/ HTTP/1.1" 200 5478
+"GET /barter/ HTTP/1.1" 200 5478
+"GET /autocomplete/?term=ap HTTP/1.1" 200 1471
+"GET /autocomplete/?term=app HTTP/1.1" 200 1089
+"GET /autocomplete/?term=to HTTP/1.1" 200 3055
+"GET /autocomplete/?term=tom HTTP/1.1" 200 786
+"GET /autocomplete/?term=toma HTTP/1.1" 200 786
+"POST /barter/ HTTP/1.1" 200 6185
+"GET /static/main/css/style.css HTTP/1.1" 304 0
+"GET /barter/ HTTP/1.1" 200 5478
+C:\Users\sookie\Desktop\django\barterapp\main\generate_pricelist.py changed, reloading.
+Watching for file changes with StatReloader
