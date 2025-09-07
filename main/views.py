@@ -56,7 +56,7 @@ def feedback_view(request):
         form = FeedbackForm(request.POST)
         if form.is_valid():
             form.save()
-            return redirect('feedback_thank_you')
+            return redirect('index')
     else:
         form = FeedbackForm()
     
