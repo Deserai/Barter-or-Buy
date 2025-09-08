@@ -44,4 +44,6 @@ document.addEventListener('DOMContentLoaded', ()=>{
 });
 });
 
-   
+document.getElementById('closeButton').addEventListener('click', function(){
+    document.getElementById('close').style.display = 'none';
+})

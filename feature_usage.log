@@ -5357,3 +5357,98 @@ re.error: missing ), unterminated subpattern at position 26
 "GET /barter/ HTTP/1.1" 200 5478
 C:\Users\sookie\Desktop\django\barterapp\main\generate_pricelist.py changed, reloading.
 Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 4585
+"GET /static/main/css/style.css HTTP/1.1" 200 7580
+"GET / HTTP/1.1" 200 4585
+"GET /feedback/ HTTP/1.1" 200 5423
+"GET /feedback/ HTTP/1.1" 200 5423
+"GET /feedback/ HTTP/1.1" 200 5400
+"GET /static/main/css/style.css HTTP/1.1" 304 0
+"GET /feedback/ HTTP/1.1" 200 5400
+"GET /feedback/ HTTP/1.1" 200 5423
+"GET /feedback/ HTTP/1.1" 200 5423
+"GET /feedback/ HTTP/1.1" 200 5423
+"GET /static/main/css/style.css HTTP/1.1" 304 0
+"GET /feedback/ HTTP/1.1" 200 5423
+"GET /barter/ HTTP/1.1" 200 5478
+"GET /barter/ HTTP/1.1" 200 5478
+"GET / HTTP/1.1" 200 4585
+"GET / HTTP/1.1" 200 4585
+"GET /buy/ HTTP/1.1" 200 5245
+"GET /buy/ HTTP/1.1" 200 5245
+"GET /autocomplete/?term=ap HTTP/1.1" 200 1577
+"GET /autocomplete/?term=app HTTP/1.1" 200 1232
+"POST /buy/ HTTP/1.1" 200 5632
+"GET /buy/ HTTP/1.1" 200 5245
+C:\Users\sookie\Desktop\django\barterapp\main\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 4585
+"GET /static/main/css/style.css HTTP/1.1" 304 0
+"GET / HTTP/1.1" 200 4585
+"GET /feedback/ HTTP/1.1" 200 5423
+"GET /feedback/ HTTP/1.1" 200 5423
+Internal Server Error: /feedback/
+Traceback (most recent call last):
+  File "C:\Users\sookie\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\sookie\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\sookie\Desktop\django\barterapp\main\views.py", line 60, in feedback_view
+    return redirect('feedback_thank_you')
+  File "C:\Users\sookie\AppData\Local\Programs\Python\Python39\lib\site-packages\django\shortcuts.py", line 48, in redirect
+    return redirect_class(resolve_url(to, *args, **kwargs))
+  File "C:\Users\sookie\AppData\Local\Programs\Python\Python39\lib\site-packages\django\shortcuts.py", line 145, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+  File "C:\Users\sookie\AppData\Local\Programs\Python\Python39\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\sookie\AppData\Local\Programs\Python\Python39\lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'feedback_thank_you' not found. 'feedback_thank_you' is not a valid view function or pattern name.
+Internal Server Error: /feedback/
+Traceback (most recent call last):
+  File "C:\Users\sookie\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\sookie\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\sookie\Desktop\django\barterapp\main\views.py", line 60, in feedback_view
+    return redirect('feedback_thank_you')
+  File "C:\Users\sookie\AppData\Local\Programs\Python\Python39\lib\site-packages\django\shortcuts.py", line 48, in redirect
+    return redirect_class(resolve_url(to, *args, **kwargs))
+  File "C:\Users\sookie\AppData\Local\Programs\Python\Python39\lib\site-packages\django\shortcuts.py", line 145, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+  File "C:\Users\sookie\AppData\Local\Programs\Python\Python39\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\sookie\AppData\Local\Programs\Python\Python39\lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'feedback_thank_you' not found. 'feedback_thank_you' is not a valid view function or pattern name.
+"POST /feedback/ HTTP/1.1" 500 85570
+- Broken pipe from ('127.0.0.1', 49298)
+"GET /feedback/ HTTP/1.1" 200 5423
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3463
+C:\Users\sookie\Desktop\django\barterapp\main\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 4585
+"GET /static/main/css/style.css HTTP/1.1" 304 0
+"GET / HTTP/1.1" 200 4585
+"GET /feedback/ HTTP/1.1" 200 5423
+"GET /feedback/ HTTP/1.1" 200 5423
+"POST /feedback/ HTTP/1.1" 302 0
+Not Found: /feedback/main/index.html
+"GET /feedback/main/index.html HTTP/1.1" 404 3502
+Not Found: /feedback/main/index.html
+"GET /feedback/main/index.html HTTP/1.1" 404 3502
+C:\Users\sookie\Desktop\django\barterapp\main\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 4585
+"GET /static/main/css/style.css HTTP/1.1" 304 0
+"GET / HTTP/1.1" 200 4585
+"GET /feedback/ HTTP/1.1" 200 5423
+"GET /feedback/ HTTP/1.1" 200 5423
+"POST /feedback/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 4585
+"GET / HTTP/1.1" 200 4585
+"GET /login/ HTTP/1.1" 200 4851
+"GET /login/ HTTP/1.1" 200 4851
+Watching for file changes with StatReloader

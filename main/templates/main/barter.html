@@ -16,13 +16,14 @@
         <ul id="suggestions"></ul>
                  
         {% if result %}
-            <div class="result">
+            <div class="result" id="close">
                 <p>The price of {{result.0}} is R{{result.4}} per/kg.</p>
                 <p>The price of {{result.2}} is R{{result.5}} per/kg.</p>
                 <p>1kg of {{result.0}} is equal to {{result.1}} kgs of {{result.2}}.</p>
                 <p>1kg of {{result.2}} is equal to {{result.3}} kgs of {{result.0}}.</p>
                 <p>Fruit and veggie prices come from The Cape Town Fresh Produce Market 
                     (www.ctmarket.co.za). This way, you know you're seeing fair and up-to-date market prices. </p>
+                <span id="closeButton" class="close-btn">&times;</span>
             </div> 
         {% endif %}
 

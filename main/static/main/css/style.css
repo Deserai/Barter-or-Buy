@@ -385,7 +385,7 @@ button{
 
 .result{
     text-align: center;
-    font-size: 1em;
+    font-size: 2vh;
     line-height: 1.5;
     color: #fafafa;
     background-color: #45a357;
@@ -393,6 +393,14 @@ button{
     padding: 1%;
     position: absolute;
     z-index: 2;
+}
+
+.close-btn{
+    font-weight: bold;
+    padding: 1px;
+    cursor: pointer;
+    border: 2px solid #fafafa;
+    background: none;
 }
 
 .card {

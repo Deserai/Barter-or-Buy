@@ -11,7 +11,7 @@
         even just a hello, it helps us make this space better!</p>
     </div>
 
-    <form method="Post" class="feedback-form">
+    <form method="POST" class="feedback-form">
         {% csrf_token%}
         {{ form.as_p}}
         <button type="submit" id="send_button">

@@ -9,7 +9,6 @@ from .generate_pricelist import get_matching_crops, priceOf, compare
 from .models import Feedback, FeatureUsage
 
 
-
 def index(request):
     FeatureUsage.objects.create(
         feature_name='Site visit',
@@ -53,10 +52,12 @@ def barter(request):
 
 def feedback_view(request):
     if request.method == 'POST':
+        print("post works")
         form = FeedbackForm(request.POST)
+        print(form)
         if form.is_valid():
             form.save()
-            return redirect('feedback_thank_you')
+            return redirect('index')
     else:
         form = FeedbackForm()
     
