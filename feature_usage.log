@@ -5496,3 +5496,4 @@ Watching for file changes with StatReloader
 "GET /static/main/css/style.css HTTP/1.1" 200 7718
 "GET /static/main/searchSuggestions.js HTTP/1.1" 304 0
 "GET /barter/ HTTP/1.1" 200 5478
+Watching for file changes with StatReloader

@@ -1,7 +1,7 @@
 from django.shortcuts import render, redirect
 from django.http import JsonResponse
 from django.views.decorators.http import require_GET
-from django.contrib.auth.decorators import login_required
+from django.contrib.auth import authenticate, login
 from django.db.models import Count
 from django.utils.timezone import now, timedelta
 from main.forms import CropSearchForm, Compare, FeedbackForm
@@ -52,7 +52,6 @@ def barter(request):
 
 def feedback_view(request):
     if request.method == 'POST':
-        print("post works")
         form = FeedbackForm(request.POST)
         print(form)
         if form.is_valid():
@@ -64,7 +63,19 @@ def feedback_view(request):
     return render(request, 'main/feedback.html', {'form': form})
 
 
-@login_required
+def user_login(request):
+    if request.method == 'POST':
+        username = request.POST['username']
+        password = request.POST['password']
+        user = authenticate(request, username=username, password=password)
+        if user is not None:
+            login(request, user)
+            return redirect('inbox')
+        else:
+            return render(render, 'login', {'error': 'invalid credentials'})
+    return render(request, 'login')
+
+
 def inbox_view(request):
     messages = Feedback.objects.order_by('-created_at')
     total_usage = FeatureUsage.objects.count()
